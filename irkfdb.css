@@ -1,0 +1,19 @@
+.container {
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    border-bottom: 1px solid;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.pull-right {
+    float: right !important;
+}
+.categories, .sources {
+    margin: 5px;
+}
