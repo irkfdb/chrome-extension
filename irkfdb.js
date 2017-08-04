@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var VERSION_NUMBER = 1,
+    var VERSION_NUMBER = 1.0
         API_CLIENT = 'CHROME_EXT';
     function getRandomQuote() {
         $.get("http://api.irkfdb.in/facts/random?api_type=" + API_CLIENT + "&version_number=" + VERSION_NUMBER, function (data) {
